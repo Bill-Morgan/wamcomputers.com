@@ -2,6 +2,11 @@
 - task: AngularCLI@0
   inputs:
     command: 'build'
+    project: '/'
+    DisableAnalytics: false
+- task: AngularCLI@0
+  inputs:
+    command: 'build'
     DisableAnalytics: false
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
